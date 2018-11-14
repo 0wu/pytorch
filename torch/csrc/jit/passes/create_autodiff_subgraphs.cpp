@@ -66,7 +66,7 @@ class SubgraphSlicer {
     }
     // Run CSE one more time to eliminate duplicates that may have occured
     // while re-inlining subgraphs.
-    EliminateCommonSubexpression(block_);
+    EliminateCommonSubexpression(graph_);
   }
 
  private:
